@@ -11,8 +11,22 @@ h1 {
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     color: #1f2937;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 2rem;
+    color:#1f2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+h5 {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
 }
 
 ul {
@@ -29,6 +43,15 @@ button {
     color:#f9faf8;
     font-weight: 600;
     margin-top: 20px;
+}
+
+.ghost {
+    background-color: none;
+    padding: 8px 22px;
+    border-radius: 8px;
+    color:#f9faf8;
+    font-weight: 600;
+    border: #f9faf8 1px solid;
 }
 
 button:hover {
@@ -127,4 +150,54 @@ button:hover {
     width: auto;
     border: 3px solid #68a1f6;
     border-radius: 10px;
+}
+
+.quote-section {
+    background-color: gray;
+    height: 40vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.quote-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 10px;
+}
+
+.quote-name {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.cta-section {
+    height: 40vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.banner-box {
+    height: 100px;
+    width: 75%;
+    background-color: #3882f6;
+    border-radius: 8px;
+    justify-items: center;
+    align-content: center;
+}
+
+.content-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px
+}
+
+.text-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
 }
